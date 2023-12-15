@@ -5,4 +5,18 @@
 //  Created by Claire Morgan-Sanders on 12/12/23.
 //
 
-import Foundation
+import SwiftUI
+
+struct ToDoListItemView: View {
+
+    var body: some View {
+        VStack {
+            Text("To Do List Item")
+        }
+    }
+}
+
+#Preview {
+    ToDoListItemView()
+}
+

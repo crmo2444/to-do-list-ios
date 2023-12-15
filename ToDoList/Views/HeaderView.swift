@@ -29,30 +29,34 @@ struct Hexagon: Shape {
 }
 
 struct HeaderView: View {
+    let title: String
+    let angleRight: Double
+    let angleLeft: Double
+    let backgroundLeft: Color
+    let backgroundMiddle: Color
+    let backgroundRight: Color
+    
     var body: some View {
         ZStack {
             ZStack {
                 RoundedRectangle(cornerRadius: 0)
-                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                    .rotationEffect(Angle(degrees: 15))
+                    .foregroundColor(backgroundRight)
+                    .rotationEffect(Angle(degrees: angleRight))
                 RoundedRectangle(cornerRadius: 0)
-                    .foregroundColor(.yellow)
-                    .rotationEffect(Angle(degrees: -15))
+                    .foregroundColor(backgroundLeft)
+                    .rotationEffect(Angle(degrees: angleLeft))
                 Hexagon()
-                    .fill(Color.green)
+                    .fill(backgroundMiddle)
                     .offset(x: 0, y: -145)
             }
 
             
             
             VStack {
-                Text("To Do List")
-                    .font(.system(size: 50))
+                Text(title)
+                    .font(.system(size: 70))
                     .foregroundColor(.white)
                     .bold()
-                Text("Get Things Done")
-                    .font(.system(size: 30))
-                    .foregroundColor(.white)
             }
             .padding(.top, 70)
         }
@@ -63,5 +67,7 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView()
+    HeaderView(title: "Title", angleRight: 15,
+               angleLeft: -15, backgroundLeft: .yellow,
+               backgroundMiddle: .purple, backgroundRight: .blue)
 }

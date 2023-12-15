@@ -34,6 +34,7 @@
 		ED6D29482B28FC38001AF378 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D29472B28FC38001AF378 /* ToDoListTests.swift */; };
 		ED6D29522B28FC38001AF378 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D29512B28FC38001AF378 /* ToDoListUITests.swift */; };
 		ED6D29542B28FC38001AF378 /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D29532B28FC38001AF378 /* ToDoListUITestsLaunchTests.swift */; };
+		EDA8ECA42B2BC4AA001B6F53 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8ECA32B2BC4AA001B6F53 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		ED6D294D2B28FC38001AF378 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6D29512B28FC38001AF378 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		ED6D29532B28FC38001AF378 /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDA8ECA32B2BC4AA001B6F53 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				ED1E9F722B29031D009FA6D3 /* NewItemView.swift */,
 				ED1E9F742B290327009FA6D3 /* LoginView.swift */,
 				ED1E9F762B290332009FA6D3 /* RegisterView.swift */,
+				EDA8ECA32B2BC4AA001B6F53 /* TLButton.swift */,
 				ED1E9F782B29035B009FA6D3 /* ToDoListItemView.swift */,
 				ED1E9F8E2B290BAB009FA6D3 /* HeaderView.swift */,
 			);
@@ -361,6 +364,7 @@
 				ED1E9F892B2903F2009FA6D3 /* RegisterViewViewModel.swift in Sources */,
 				ED1E9F7F2B2903CC009FA6D3 /* MainViewViewModel.swift in Sources */,
 				ED1E9F712B290311009FA6D3 /* ToDoListItemsView.swift in Sources */,
+				EDA8ECA42B2BC4AA001B6F53 /* TLButton.swift in Sources */,
 				ED1E9F772B290332009FA6D3 /* RegisterView.swift in Sources */,
 				ED1E9F812B2903D2009FA6D3 /* ProfileViewViewModel.swift in Sources */,
 				ED1E9F6F2B2902E6009FA6D3 /* ProfileView.swift in Sources */,
